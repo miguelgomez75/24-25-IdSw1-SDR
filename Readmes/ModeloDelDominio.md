@@ -18,7 +18,7 @@ Aquí se muestran los diagramas que componen el modelo del dominio: El diagrama 
 
 | **Diagrama** | **Código Fuente** |
 |--------------|--------------------|
-| ![Diagrama de Objetos]() | [Ver código](/MdD/DdObjetos/4ª_Iteración/DdEntidades.puml) |
+| ![Diagrama de Objetos](/MdD/DdObjetos/4ª_Iteración/DdEntidades.sg) | [Ver código](/MdD/DdObjetos/4ª_Iteración/DdEntidades.puml) |
 
 ---
 ## Diagrama de Estados
