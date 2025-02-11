@@ -2,7 +2,7 @@
 class Usuario {
     +String id
     +String nombreUsuario
-    +String fotoPerfil
+    +File fotoPerfil
     +String correoInstitucional
     +List<Comunidad> comunidades
     +Date fechaEntrada
@@ -12,7 +12,7 @@ class Post {
     +Date fechaCreacion
     +Date fechaResuelto
     +int duracion
-    +String mensaje
+    +String contenido
     +boolean resuelto
     +Usuario usuarioOP
     +List<Etiqueta> etiquetas
@@ -25,7 +25,7 @@ class Etiqueta {
 
 class Comunidad{
     +String nombreComunidad
-    +String fotoComunidad
+    +File fotoComunidad
     +List<Etiqueta> etiquetasAsociadas
     +List<Usuario> miembros
     +List<Post> postsComunidad
