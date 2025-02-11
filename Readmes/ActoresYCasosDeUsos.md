@@ -16,6 +16,12 @@ Aquí se muestran los actores principales y los casos de uso de la aplicación
 
 ## Actores Primarios
 
+### Casos de Uso del Invitado
+
+| **Nombre del Diagrama** | **Diagrama** | **Código Fuente** |
+|------------------------|--------------|-------------------|
+| Diagrama de Casos de Uso - Funcionalidades del Usuario Invitado | ![Casos de Uso del Invitado](/CdU/DdCdUso_Invitado/1ª_Iteración/DdCdUso_Invitado.svg) | [Ver código](/CdU/DdCdUso_Invitado/1ª_Iteración/DdCdUso_Invitado.puml) |
+
 ### Casos de Uso de Usuario Registrado
 
 | **Nombre del Diagrama** | **Diagrama** | **Código Fuente** |
@@ -28,10 +34,5 @@ Aquí se muestran los actores principales y los casos de uso de la aplicación
 |------------------------|--------------|-------------------|
 | Diagrama de Casos de Uso - Funcionalidades del Moderador | ![Casos de Uso del Moderador](/CdU/DdCdUso_Moderador/5ª_Iteración/DdCdUso_Moderador.svg) | [Ver código](/CdU/DdCdUso_Moderador/5ª_Iteración/DdCdUso_Moderador.puml) |
 
-### Casos de Uso del Invitado
-
-| **Nombre del Diagrama** | **Diagrama** | **Código Fuente** |
-|------------------------|--------------|-------------------|
-| Diagrama de Casos de Uso - Funcionalidades del Usuario Invitado | ![Casos de Uso del Invitado](/CdU/DdCdUso_Invitado/1ª_Iteración/DdCdUso_Invitado.svg) | [Ver código](/CdU/DdCdUso_Invitado/1ª_Iteración/DdCdUso_Invitado.puml) |
 
 </div>
