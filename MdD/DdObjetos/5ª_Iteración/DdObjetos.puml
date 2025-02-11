@@ -1,0 +1,55 @@
+@startuml
+
+object Gabriel {
+    +id : #****
+    +nombreUsuario : Gbrl_lechuga413
+    +fotoPerfil : ****.png
+    +correoIntitucional : Gabriel.sicacha@alumnos...
+    +comunidades : Volleyball, Calabozos y Dragones, ...
+    +fechaEntrada : 02/09/2025
+}
+
+object Samuel {
+    +id : #****
+    +nombreUsuario : Samu_jketos
+    +fotoPerfil : ****.png
+    +correoIntitucional : Samuel.j@alumnos...
+    +comunidades : Volleyball, Padel, ...
+    +fechaEntrada : 02/10/2025
+}
+
+object Volleyball {
+    +nombreComunidad : Volley
+    +fotoComunidad : ****.png
+    +etiquetasAsociadas : Deportes, actividades, etc...
+    +miembros : Monica, Carmen, Emilio...
+}
+
+object Post {
+    +usuarioOP : Samu_jketos
+    +id : #P****
+    +fechaCreacion : "2025-02-11"
+    +contenido : "A la playa el sabado?"
+    +resuelto : false
+    +etiquetas : Playa, Volleyball
+}
+
+object etiqueta1 {
+    +nombre : Playa
+    +numeroDePosts : 157
+}
+
+object etiqueta2 {
+    +nombre : Volley
+    +numeroDePosts : 68
+}
+
+Gabriel -right- Volleyball : "miembro de"
+Samuel -- Volleyball : "miembro de"
+Samuel -- Post : "Crea"
+Volleyball -- Post : "contiene"
+Gabriel -- Post : "Interactua con"
+Post -- etiqueta1 : "tiene"
+Post -- etiqueta2 : "tiene"
+
+@enduml
