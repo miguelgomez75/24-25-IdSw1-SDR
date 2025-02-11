@@ -1,6 +1,6 @@
 @startuml
 
-abstract class Usuario
+class Usuario
 class Alumno
 class Exalumno
 class Posts
@@ -9,8 +9,8 @@ class Etiquetas
 class Comentario
 
 ' Relaciones de herencia
-Alumno --|> Usuario
-Exalumno --|> Usuario
+Alumno --> Usuario
+Exalumno --> Usuario
 
 ' Relaciones entre clases
 Usuario --> Posts : realiza
