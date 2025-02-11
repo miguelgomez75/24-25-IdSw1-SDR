@@ -25,14 +25,11 @@
     - [Diagrama de Estados](/Readmes/ModeloDelDominio.md#diagrama-de-estados)
 
 ---
-## 🛠️ ACTORES Y CASOS DE USO
+## 🛠️ Disciplina de requisitos
 - [Actores](/Readmes/ActoresYCasosDeUsos.md#jerarqu%C3%ADa-de-actores-primarios)
 - [Diagrama Casos de Uso](https://github.com/miguelgomez75/24-25-IdSw1-SDR/blob/main/Readmes/ActoresYCasosDeUsos.md#actores-primarios)
 - [Diagrama de Contexto](/Readmes/DiagramaDeContexto.md)
 - [Casos de Uso Detallados](/Readmes/DetalladoDeCasosDeUso.md)
-
----
-## 📸 PROTOTIPOS
 - [Prototipos](https://github.com/miguelgomez75/24-25-IdSw1-SDR/blob/main/Readmes/Prototipos.md) de diseño de la app
 
 ---
