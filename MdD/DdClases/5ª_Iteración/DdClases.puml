@@ -1,0 +1,46 @@
+@startuml
+class Usuario {
+    +String id
+    +String nombreUsuario
+    +String fotoPerfil
+    +String correoInstitucional
+    +List<Comunidad> comunidades
+    +Date fechaEntrada
+}
+class Post {
+    +String id
+    +Date fechaCreacion
+    +Date fechaResuelto
+    +int duracion
+    +String mensaje
+    +boolean resuelto
+    +Usuario usuarioOP
+    +List<Etiqueta> etiquetas
+}
+class Etiqueta {
+     +crearEtiqueta()
+     +actualizarEtiqueta()
+     +obtenerPosts()
+}
+
+class Comunidad{
+    +String nombreComunidad
+    +String fotoComunidad
+    +List<Etiqueta> etiquetasAsociadas
+    +List<Usuario> miembros
+    +List<Post> postsComunidad
+}
+
+class Filtro{
+    +List<Etiqueta> Filtrar
+    +elegirEtiquetas()
+    +localizarPost
+}
+
+Usuario "1" --> "n" Post : "publica e interactua con"
+Post "n" --> "n" Etiqueta : "tiene"
+Post --> Filtro : "localizado usando"
+Comunidad --> Usuario : "Conformada por"
+Comunidad --> Post : "Contiene"
+
+@enduml
