@@ -26,13 +26,13 @@ Aquí se muestran los actores principales y los casos de uso de la aplicación
 
 | **Nombre del Diagrama** | **Diagrama** | **Código Fuente** |
 |------------------------|--------------|-------------------|
-| Diagrama de Casos de Uso - Funcionalidades del Usuario Registrado | ![Casos de Uso de Usuario Registrado](/CdU/DdCdUso_UsuarioRegistrado/1ª_Iteración/DdCdUso_UsuarioRegistrado.svg) | [Ver código](/CdU/DdCdUso_UsuarioRegistrado/1ª_Iteración/DdCdUso_UsuarioRegistrado.puml) |
+| Diagrama de Casos de Uso - Funcionalidades del Usuario Registrado | ![Casos de Uso de Usuario Registrado 1](/CdU/DdCdUso_UsuarioRegistrado/1ª_Iteración/DdCdUso_UsuarioRegistrado_Collage.png) | [Ver código](/CdU/DdCdUso_UsuarioRegistrado/1ª_Iteración) |
 
 ### Casos de Uso del Moderador
 
 | **Nombre del Diagrama** | **Diagrama** | **Código Fuente** |
 |------------------------|--------------|-------------------|
-| Diagrama de Casos de Uso - Funcionalidades del Moderador | ![Casos de Uso del Moderador](/CdU/DdCdUso_Moderador/5ª_Iteración/DdCdUso_Moderador.svg) | [Ver código](/CdU/DdCdUso_Moderador/5ª_Iteración/DdCdUso_Moderador.puml) |
+| Diagrama de Casos de Uso - Funcionalidades del Moderador | ![Casos de Uso del Moderador 1](/CdU/DdCdUso_Moderador/5ª_Iteración/DdCdUso_Moderador_Collage.png) | [Ver código](/CdU/DdCdUso_Moderador/5ª_Iteración/DdCdUso_Moderador.puml) |
 
 
 </div>
