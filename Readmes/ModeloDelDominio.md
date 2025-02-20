@@ -21,7 +21,7 @@ Aquí se muestran los diagramas que componen el modelo del dominio: El diagrama 
 | ![Diagrama de Objetos](/MdD/DdObjetos/5ª_Iteración/DdObjetos.svg) | [Ver código](/MdD/DdObjetos/5ª_Iteración/DdObjetos.puml) |
 
 ---
-## Diagrama de Estados
+## Diagramas de Estados
 
 ### Comunidades
 
