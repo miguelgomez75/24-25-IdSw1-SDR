@@ -1,0 +1,49 @@
+@startuml
+state Inicio
+state Dashboard
+state "Perfil" as Perfil {
+[*]--> Edición: Modificar Datos de Perfil
+Edición --> [*]: Guardar Cambios
+}
+
+state "Comunidades" as Comunidades{
+[*] --> Selección
+Selección --> CreaciónComunidad: Crear Comunidad
+CreaciónComunidad --> Selección: Guardar Cambios
+Selección --> [*]
+}
+
+state "Ajustes" as Ajustes{
+[*] --> Configuración : Modificar 
+}
+
+
+[*] --> Inicio : Registrarse \n Iniciar Sesión
+Inicio --> Dashboard : Ver Posts
+Dashboard --> Perfil : Ver Perfil
+Dashboard --> Comunidades : Ver Comunidades
+Dashboard --> Ajustes : Ver Ajustes
+Dashboard --> Etiqueta : Elegir Etiqueta
+Perfil --> Dashboard : Ver Posts
+Comunidades --> Dashboard : Ver Posts
+Ajustes --> Dashboard : Ver Posts
+Etiqueta --> Dashboard : Ver Posts
+Perfil --> Comunidades : Ver Comunidades
+Perfil --> Ajustes : Ver Ajustes
+Perfil --> Etiqueta : Elegir Etiqueta
+Comunidades --> Perfil : Ver Perfil
+Comunidades --> Ajustes : Ver Ajustes
+Comunidades --> Etiqueta : Elegir Etiqueta
+Ajustes --> Perfil : Ver Perfil
+Ajustes --> Comunidades : Ver Comunidades
+Ajustes --> Etiqueta : Elegir Etiqueta
+Etiqueta --> Perfil : Ver Perfil
+Etiqueta --> Comunidades : Ver Comunidades
+Etiqueta --> Ajustes : Ver Ajustes
+Inicio --> [*] : Cerrar Sesión
+Dashboard --> [*] : Cerrar Sesión
+Perfil --> [*] : Cerrar Sesión
+Comunidades --> [*] : Cerrar Sesión
+Ajustes --> [*] : Cerrar Sesión
+Etiqueta --> [*] : Cerrar Sesión
+@enduml
