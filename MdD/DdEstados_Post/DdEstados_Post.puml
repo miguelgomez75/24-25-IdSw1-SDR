@@ -1,14 +1,15 @@
 @startuml
 [*] --> Draft
 Draft : Post creado (borrador)
-Draft --> Publicado : Publicar
+
+Draft --> Publicado 
 Publicado : Post publicado
-Publicado --> Eliminado : Eliminar
+
+Publicado --> Eliminado 
 Eliminado : Post eliminado
-Publicado --> Editando : Editar
-Editando : Post en edición
-Editando --> Publicado : Republicar
-Publicado --> Etiquetado : Añadir etiquetas
-Etiquetado : Post con etiquetas
-Etiquetado --> Publicado : Quitar etiquetas
-@enduml 
+
+Publicado --> Editado 
+Editado : Post en edición
+Editado --> Publicado 
+
+@enduml
