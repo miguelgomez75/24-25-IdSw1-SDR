@@ -29,16 +29,16 @@ Aquí se muestran los diagramas que componen el modelo del dominio: El diagrama 
 |--------------|--------------------|
 | ![Diagrama de Objetos](/MdD/DdEstados_Comunidades/2ª_Iteración/DdEstados_Comunidades.svg) | [Ver código](/MdD/DdEstados_Comunidades/2ª_Iteración/DdEstados_Comunidades.puml) |
 
+### Post
+
+| **Diagrama** | **Código Fuente** |
+|--------------|--------------------|
+| ![Diagrama de Objetos](/MdD/DdEstados_Post/DdEstados_Post.svg) | [Ver código](/MdD/DdEstados_Post/DdEstados_Post.puml) |
+
 ### Usuario
 
 | **Diagrama** | **Código Fuente** |
 |--------------|--------------------|
 | ![Diagrama de Objetos](/MdD/DdEstados_Usuario/1ª_Iteración/DdEstados_Usuario.svg) | [Ver código](/MdD/DdEstados_Usuario/1ª_Iteración/DdEstados_Usuario.puml) |
-
-### Etiqueta
-
-| **Diagrama** | **Código Fuente** |
-|--------------|--------------------|
-| ![Diagrama de Objetos](/MdD/DdEstados_Etiqueta/1ª_Iteración/DdEstados_Etiquetas.svg) | [Ver código](/MdD/DdEstados_Etiqueta/1ª_Iteración/DdEstados_Etiqueta.puml) |
 
 </div>
