@@ -6,7 +6,7 @@ Aquí se muestran los actores principales y los casos de uso de la aplicación
 
 ---
 
-## Jerarquía de actores primarios
+## Jerarquía de actores 
 
 | **Diagrama** | **Código Fuente** |
 |--------------|--------------------|
@@ -14,7 +14,7 @@ Aquí se muestran los actores principales y los casos de uso de la aplicación
 
 ---
 
-## Actores Primarios
+## Actores 
 
 ### Casos de Uso del Invitado
 
