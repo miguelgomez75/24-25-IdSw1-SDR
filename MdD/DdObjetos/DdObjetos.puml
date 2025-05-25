@@ -1,0 +1,68 @@
+@startuml
+
+object Gabriel {
+    +id : #U001
+    +nombreUsuario : Gbrl_lechuga413
+    +fotoPerfil : perfil1.png
+    +correoInstitucional : gabriel.sicacha@alumnos...
+    +comunidades : Volleyball, Calabozos y Dragones
+    +fechaEntrada : 2025-09-02
+}
+
+object Samuel {
+    +id : #U002
+    +nombreUsuario : Samu_jketos
+    +fotoPerfil : perfil2.png
+    +correoInstitucional : samuel.j@alumnos...
+    +comunidades : Volleyball, Padel
+    +fechaEntrada : 2025-10-02
+}
+
+object Volleyball {
+    +nombreComunidad : Volleyball
+    +fotoComunidad : volley.png
+    +etiquetasAsociadas : Deportes, Actividades
+    +miembros : Monica, Carmen, Emilio, ...
+}
+
+object Post1 {
+    +id : #P001
+    +usuarioOP : Samu_jketos
+    +fechaCreacion : 2025-02-11
+    +contenido : "A la playa el sábado?"
+    +resuelto : false
+    +etiquetas : Playa, Volleyball
+    +likes : 12
+    +comentarios : 1
+}
+
+object Comentario1 {
+    +id : #C001
+    +creador : Gbrl_lechuga413
+    +contenido : "¿Qué hay del domingo?"
+    +fechaCreacion : 2025-02-11
+}
+
+object EtiquetaPlaya {
+    +nombre : Playa
+    +numeroDePosts : 157
+}
+
+object EtiquetaVolley {
+    +nombre : Volleyball
+    +numeroDePosts : 68
+}
+
+' Relationships
+Gabriel --> Comentario1 : "crea"
+Gabriel --> Volleyball : "miembro de"
+Samuel --> Volleyball : "miembro de"
+Samuel --> Post1 : "crea"
+
+Volleyball o-- Post1 : "contiene"
+Post1 *-- Comentario1 : "tiene"
+Post1 o-- EtiquetaPlaya : "usa"
+Post1 o-- EtiquetaVolley : "usa"
+Gabriel --> Post1 : "interactúa con"
+
+@enduml
