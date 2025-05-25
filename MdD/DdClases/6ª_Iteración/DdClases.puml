@@ -43,7 +43,7 @@ class Filtro{
 class Comentario{
     +String ID
     +Post post
-    +Usuario usuario
+    +Usuario creador
     +String contenido
     +Date fechaCreacion
 }
