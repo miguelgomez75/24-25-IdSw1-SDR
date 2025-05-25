@@ -1,0 +1,68 @@
+@startuml
+class Usuario {
+    +String id
+    +String nombre
+    +File foto
+    +String correoInstitucional
+    +List<Post> posts
+    +List<Comunidad> comunidades
+    +Date fechaEntrada
+    
+}
+class Post {
+    +String id
+    +Date fechaCreacion
+    +Date fechaResuelto
+    +int duracion
+    +String contenido
+    +boolean resuelto
+    +Usuario creador
+    +List<Etiqueta> etiquetas
+    +List<Comentarios> comentario
+    +List<Likes> likes
+}
+class Etiqueta {
+     +List<Post> posts
+     +List<Comunidad> comunidades
+}
+
+class Comunidad{
+    +String nombre
+    +File foto
+    +List<Etiqueta> etiquetasAsociadas
+    +List<Usuario> miembros
+    +List<Post> posts
+}
+
+class Filtro{
+    +List<Etiqueta> Filtrar
+    +elegirEtiquetas()
+    +localizarPost
+}
+
+class Comentario{
+    +String ID
+    +Post post
+    +Usuario usuario
+    +String contenido
+    +Date fechaCreacion
+}
+
+class Like{
++String ID
++Post post
++Usuario usuario
++Date DateTime
+}
+
+Comunidad o-- Usuario
+Comunidad o-- Post
+Usuario <--> Post
+Post o--o Etiqueta
+Post *-- Like
+Post *-- Comentario
+Post ..> Filtro
+Filtro .> Etiqueta
+
+
+@enduml
