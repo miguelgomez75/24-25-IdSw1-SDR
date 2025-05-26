@@ -26,7 +26,7 @@ Aquí se muestran los actores principales y los casos de uso de la aplicación
 
 | **Nombre del Diagrama** | **Diagrama** | **Código Fuente** |
 |------------------------|--------------|-------------------|
-| Diagrama de Casos de Uso - Funcionalidades del Usuario Registrado | ![Casos de Uso de Usuario Registrado 1](/CdU/DdCdUso_UsuarioRegistrado/1ª_Iteración/DdCdUso_UsuarioRegistrado_Collage.png) | [Ver código](/CdU/DdCdUso_UsuarioRegistrado/1ª_Iteración) |
+| Diagrama de Casos de Uso - Funcionalidades del Usuario Registrado | ![Casos de Uso de Usuario Registrado](/CdU/DdCdUso_UsuarioRegistrado/2ª_Iteración/DdCdUso_UsuarioRegistrado_Collage.png) | [Ver código](/CdU/DdCdUso_UsuarioRegistrado/2ª_Iteración) |
 
 ### Casos de Uso del Moderador
 
