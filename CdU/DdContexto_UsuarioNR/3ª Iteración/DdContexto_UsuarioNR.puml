@@ -1,0 +1,6 @@
+@startuml
+[*] --> Post: Ver Post
+[*] --> [*] : Registrarse
+Post --> Post: Compartir Post
+Post --> [*]: Registrarse
+@enduml 

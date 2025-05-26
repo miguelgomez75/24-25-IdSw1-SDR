@@ -1,0 +1,16 @@
+@startuml
+[*] --> Inicio
+Inicio --> Usuario : Elegir perfil de Usuario
+Inicio --> Moderador : Elegir perfil de Moderador
+
+Usuario --> Moderador : Cambiando a Moderador
+
+Moderador --> Publicaciones : Eliminar posts\\Revisar comentarios
+Moderador --> Reportes : Revisar reportes\\de contenido
+Moderador --> Usuarios : Suspender\\Advertir\\Desbloquear
+Moderador --> Aplicacion : Bloquear palabras\\o expresiones
+Moderador --> Comunidades : Eliminar comunidad
+
+Usuario --> [*] : Log out/Cambiar a UsuarioRegistrado
+Moderador --> [*] : Log out/Cambiar a UsuarioRegistrado
+@enduml
