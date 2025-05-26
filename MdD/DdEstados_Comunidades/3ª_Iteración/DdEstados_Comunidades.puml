@@ -1,0 +1,20 @@
+@startuml
+[*] --> ViendoListaComunidades
+
+ViendoListaComunidades --> ViendoDetallesComunidad : Seleccionar una comunidad
+ViendoDetallesComunidad --> ViendoListaComunidades : Volveiendo al listado
+
+ViendoDetallesComunidad --> Miembro : Unirse a comunidad
+Miembro --> ComunidadAbandonada : Dejar la comunidad
+
+' Nuevos estados y transiciones
+ViendoListaComunidades --> CreandoComunidad
+CreandoComunidad --> MiembroLider
+
+MiembroLider --> GestionandoComunidad 
+MiembroLider --> ComunidadEliminada
+
+' Transiciones entre Miembro y MiembroLider
+Miembro --> MiembroLider : Miembro ascendido
+MiembroLider --> Miembro : Liderazgo revocado
+@enduml
