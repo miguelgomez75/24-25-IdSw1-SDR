@@ -1,0 +1,22 @@
+@startuml
+left to right direction
+actor Moderador
+
+package Aplicacion{
+ package Usuarios{
+        usecase "Suspender usuario" as UC3
+        usecase "Enviar advertencia" as UC5
+        usecase "Desbloquear usuario" as UC8
+    }
+usecase "Bloquear palabras o expresiones" as UC7
+
+usecase "Eliminar Comunidad" as UC9
+}
+
+Moderador --> UC3
+Moderador --> UC5
+Moderador --> UC7
+Moderador --> UC8
+Moderador --> UC9
+
+@enduml
