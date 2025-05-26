@@ -1,6 +1,6 @@
 @startuml
 [*] --> Post: Ver Post
-[*] --> [*] : Registrarse
+[*] --> [*] : Registrarse/InicarSesion
 Post --> Post: Compartir Post
-Post --> [*]: Registrarse
+Post --> [*]: Registrarse/InicarSesion
 @enduml 
