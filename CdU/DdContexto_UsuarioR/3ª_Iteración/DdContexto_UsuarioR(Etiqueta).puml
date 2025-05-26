@@ -1,0 +1,9 @@
+@startuml
+title Funciones dentro de "Etiqueta"
+state Etiqueta{}
+
+Etiqueta --> Dashboard : Ver Posts
+Etiqueta --> Perfil : Ver Perfil
+Etiqueta --> Comunidades : Ver Comunidades
+Etiqueta --> Ajustes : Ver Ajustes
+@enduml
