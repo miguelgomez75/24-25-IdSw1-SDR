@@ -1,5 +1,12 @@
 @startuml
 
+object Volleyball {
+    +nombreComunidad : Volleyball
+    +fotoComunidad : volley.png
+    +etiquetasAsociadas : Deportes, Actividades
+    +miembros : Monica, Carmen, Emilio, ...
+}
+
 object Gabriel {
     +id : #U001
     +nombreUsuario : Gbrl_lechuga413
@@ -16,13 +23,6 @@ object Samuel {
     +correoInstitucional : samuel.j@alumnos...
     +comunidades : Volleyball, Padel
     +fechaEntrada : 2025-10-02
-}
-
-object Volleyball {
-    +nombreComunidad : Volleyball
-    +fotoComunidad : volley.png
-    +etiquetasAsociadas : Deportes, Actividades
-    +miembros : Monica, Carmen, Emilio, ...
 }
 
 object Post1 {
@@ -54,12 +54,13 @@ object EtiquetaVolley {
 }
 
 ' Relationships
+Volleyball o-- Post1 : "contiene"
 Gabriel --> Comentario1 : "crea"
-Gabriel --> Volleyball : "miembro de"
-Samuel --> Volleyball : "miembro de"
+Volleyball <-- Gabriel : "miembro de"
+Volleyball <-- Samuel : "miembro de"
 Samuel --> Post1 : "crea"
 
-Volleyball o-- Post1 : "contiene"
+
 Post1 *-- Comentario1 : "tiene"
 Post1 o-- EtiquetaPlaya : "usa"
 Post1 o-- EtiquetaVolley : "usa"
