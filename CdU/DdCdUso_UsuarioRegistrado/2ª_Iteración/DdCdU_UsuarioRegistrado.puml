@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+actor Usuario_Registrado
+
+rectangle "Aplicación" {
+    usecase "Cerrar sesión" as UC1
+    usecase "Filtrar contenido" as UC12
+    usecase "Modificar datos de usuario" as UC13
+    usecase "Entrar a vista de moderador" as UC14
+    
+    rectangle "Comunidad"{
+        usecase "Entrar a comunidad" as UC8
+        usecase "Salir de comunidad" as UC9
+        usecase "Crear Comunidad" as UC10
+        usecase "Eliminar Comunidad" as UC11
+}
+
+
+}
+
+Usuario_Registrado --> UC1
+Usuario_Registrado --> UC8
+Usuario_Registrado --> UC9
+Usuario_Registrado --> UC10
+Usuario_Registrado --> UC11
+Usuario_Registrado --> UC12
+Usuario_Registrado --> UC13
+Usuario_Registrado --> UC14
+@enduml
