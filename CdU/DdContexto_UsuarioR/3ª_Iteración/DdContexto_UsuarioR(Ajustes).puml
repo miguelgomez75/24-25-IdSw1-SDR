@@ -1,0 +1,12 @@
+@startuml
+title Funciones dentro de "Ajustes"
+
+state Ajustes {
+  [*] --> Configuración : Modificar
+}
+
+Ajustes --> Dashboard : Ver Posts
+Ajustes --> Perfil : Ver Perfil
+Ajustes --> Comunidades : Ver Comunidades
+Ajustes --> Etiqueta : Elegir Etiqueta
+@enduml
