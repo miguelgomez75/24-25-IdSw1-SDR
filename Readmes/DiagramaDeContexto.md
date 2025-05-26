@@ -5,22 +5,7 @@
 Aquí se muestran los Diagramas de contexto.
 
 ---
-## General
-
-| **Diagrama** | **Código Fuente** |
-|--------------|--------------------|
-| ![App](/CdU/DdContexto/3ª_Iteración/DdContexto.svg) | [Ver código](/CdU/DdContexto/3ª_Iteración/DdContexto.puml) |
-
----
-
-## Moderador
-
-| **Diagrama** | **Código Fuente** |
-|--------------|--------------------|
-| ![Moderador](/CdU/DdContexto_Mod/4ª_Iteración/DdContexto_Mod.svg) | [Ver código](/CdU/DdContexto_Mod/4ª_Iteración/DdContexto_Mod.puml) |
-
----
-## Usuario No Registrado
+## Usuario Invitado
 
 | **Diagrama** | **Código Fuente** |
 |--------------|--------------------|
@@ -37,8 +22,22 @@ Aquí se muestran los Diagramas de contexto.
 |--------------|----------|
 |              |          |
 
-| **Código Fuente** |
-|--------------------|
-| [Ver código](/CdU/DdContexto_UsuarioR/3ª_Iteración) |
+| **Código Fuente** | **Código Completo** |
+|--------------------|--------------------|
+| [Ver código](/CdU/DdContexto_UsuarioR/3ª_Iteración) | [Ver código](/CdU/DdContexto_UsuarioR/2ª%20Iteración/DdContexto_UsuarioR.svg) |
+
+---
+## Moderador
+
+| **Diagrama** | **Código Fuente** |
+|--------------|--------------------|
+| ![Moderador](/CdU/DdContexto_Mod/4ª_Iteración/DdContexto_Mod.svg) | [Ver código](/CdU/DdContexto_Mod/4ª_Iteración/DdContexto_Mod.puml) |
+
+---
+## General
+
+| **Diagrama** | **Código Fuente** |
+|--------------|--------------------|
+| ![App](/CdU/DdContexto/3ª_Iteración/DdContexto.svg) | [Ver código](/CdU/DdContexto/3ª_Iteración/DdContexto.puml) |
 
 </div>
