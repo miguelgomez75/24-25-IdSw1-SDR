@@ -1,0 +1,13 @@
+@startuml
+title Funciones dentro de "Perfil"
+
+state Perfil {
+  [*] --> Edición : Modificar Datos de Perfil
+  Edición --> [*] : Guardar Cambios
+}
+
+Perfil --> Dashboard : Ver Posts
+Perfil --> Comunidades : Ver Comunidades
+Perfil --> Ajustes : Ver Ajustes
+Perfil --> Etiqueta : Elegir Etiqueta
+@enduml
