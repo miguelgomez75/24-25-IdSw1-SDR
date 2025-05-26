@@ -1,0 +1,27 @@
+@startuml
+title Navegación Principal del Usuario
+
+state Inicio
+state Dashboard
+state Perfil
+state Comunidades
+state Ajustes
+state Etiqueta
+
+[*] --> Inicio : Registrarse / Iniciar Sesión
+Inicio --> Dashboard : Ver Posts
+
+Dashboard --> Perfil : Ver Perfil
+Dashboard --> Comunidades : Ver Comunidades
+Dashboard --> Ajustes : Ver Ajustes
+Dashboard --> Etiqueta : Elegir Etiqueta
+
+' Cierre de sesión
+Inicio --> [*] : Cerrar Sesión
+Dashboard --> [*] : Cerrar Sesión
+Perfil --> [*] : Cerrar Sesión
+Comunidades --> [*] : Cerrar Sesión
+Ajustes --> [*] : Cerrar Sesión
+Etiqueta --> [*] : Cerrar Sesión
+
+@enduml
