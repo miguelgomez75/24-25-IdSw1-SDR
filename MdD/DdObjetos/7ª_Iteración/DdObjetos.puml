@@ -1,0 +1,53 @@
+@startuml
+
+object Usuario{
+    +id
+    +nombreUsuario
+    +fotoPerfil
+    +correoInstitucional
+    +comunidades
+    +fechaEntrada
+}
+
+object Comunidad {
+    +nombreComunidad
+    +fotoComunidad
+    +etiquetasAsociadas
+    +miembros
+}
+
+object Post {
+    +id
+    +usuarioOP
+    +fechaCreacion
+    +contenido
+    +resuelto
+    +etiquetas
+    +likes
+    +comentarios
+}
+
+object Comentario {
+    +id
+    +creador
+    +contenido
+    +fechaCreacion
+}
+
+object Etiqueta {
+    +nombre : Playa
+    +numeroDePosts
+}
+
+' Relationships
+Comunidad o-- Post : "contiene"
+Comunidad <-- Usuario : "miembro de"
+Usuario --> Comentario : "crea"
+Usuario --> Post : "crea"
+
+
+Post *-- Comentario : "tiene"
+Post o-- Etiqueta : "usa"
+Usuario --> Post : "interactúa con"
+
+@enduml
