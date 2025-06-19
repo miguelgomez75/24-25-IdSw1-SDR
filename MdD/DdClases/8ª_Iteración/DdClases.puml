@@ -1,0 +1,83 @@
+@startuml
+
+abstract class UsuarioInvitado {
+    +id
+    +nombre
+    +foto
+    +fechaEntrada
+    +verPost()
+    +compartirPost()
+}
+
+class UsuarioRegistrado {
+    +correoInstitucional
+    +posts
+    +comunidades
+    +publicarPost()
+    +comentarPost()
+    +LikePost()
+}
+
+class Moderador {
+    +eliminarPost()
+    +banearUsuario()
+}
+
+class Post {
+    +id
+    +fechaCreacion
+    +fechaResuelto
+    +duracion
+    +contenido
+    +resuelto
+    +creador
+    +etiquetas
+    +comentarios
+    +likes
+}
+class Etiqueta {
+     +posts
+     +comunidades
+}
+
+class Comunidad{
+    +nombre
+    +foto
+    +etiquetasAsociadas
+    +miembros
+    +posts
+}
+
+class Filtro{
+    +Filtrar
+    +elegirEtiquetas()
+    +localizarPost
+}
+
+class Comentario{
+    +ID
+    +post
+    +creador
+    +contenido
+    +fechaCreacion
+}
+
+class Like{
+    +ID
+    +post
+    +usuario
+    +DateTime
+}
+
+Comunidad o-- UsuarioRegistrado
+Comunidad o-- Post
+UsuarioRegistrado <--> Post
+UsuarioInvitado <|-- UsuarioRegistrado
+UsuarioRegistrado <|-- Moderador
+Post --o Etiqueta
+Post *-- Like
+Post *-- Comentario
+Post ..> Filtro
+Filtro .> Etiqueta
+
+@enduml
