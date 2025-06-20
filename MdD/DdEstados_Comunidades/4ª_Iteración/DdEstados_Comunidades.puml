@@ -11,7 +11,7 @@ Miembro --> ComunidadAbandonada : Dejar la comunidad
 ViendoLista --> Creando
 Creando --> MiembroLider
 
-MiembroLider --> Gestionando 
+MiembroLider --> CambiandoAjustes
 MiembroLider --> ComunidadEliminada
 
 ' Transiciones entre Miembro y MiembroLider
