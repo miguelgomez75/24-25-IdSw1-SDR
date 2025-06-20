@@ -10,7 +10,7 @@ Aquí se muestran los actores principales y los casos de uso de la aplicación
 
 | **Diagrama** | **Código Fuente** |
 |--------------|--------------------|
-| ![Jerarquia de actores](/CdU/DdJerarquiaActores/1ª_Iteración/DdJerarquiaActores.svg)| [Ver código](/CdU/DdJerarquiaActores/1ª_Iteración/DdJerarquiaActores.puml) |
+| ![Jerarquia de actores](/CdU/DdJerarquiaActores/2ª_Iteración/DdJerarquiaActores.svg)| [Ver código](/CdU/DdJerarquiaActores/2ª_Iteración/DdJerarquiaActores.puml) |
 
 ---
 
