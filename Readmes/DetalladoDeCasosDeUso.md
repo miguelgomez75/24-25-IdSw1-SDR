@@ -5,7 +5,7 @@
 Aquí se muestran los Casos de Uso detallados
 
 ---
-## Usuario Invitado
+## Actor Invitado
 
 | **Nombre del Diagrama** | **Diagrama** | **Código Fuente** |
 |------------------------|--------------|-------------------|
@@ -15,7 +15,7 @@ Aquí se muestran los Casos de Uso detallados
 | Inicio de Sesión | <img src="/Detallado%20de%20CdU/Detallado%20de%20CdU%20-%20Imagenes/2ªIteración/DcU_Inicio_Sesión.svg" width="600"> | [Ver código](/Detallado%20de%20CdU/Detallado%20de%20CdU%20-%20Modelos/2ªIteración/CdU_Inicio_Sesión.puml) |
 
 ---
-## Usuario Registrado
+## Actor Registrado
 
 | **Nombre del Diagrama** | **Diagrama** | **Código Fuente** |
 |------------------------|--------------|-------------------|
