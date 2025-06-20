@@ -22,7 +22,7 @@
 
     - [Diagrama de clases](/Readmes/ModeloDelDominio.md#diagrama-de-clases)
     - [Diagrama de Objetos](/Readmes/ModeloDelDominio.md#diagrama-de-objetos)
-    - [Diagrama de Estados](/Readmes/ModeloDelDominio.md#diagrama-de-estados)
+    - [Diagrama de Estados](/Readmes/ModeloDelDominio.md#diagramas-de-estados)
 
 ---
 ## 🛠️ DISCIPLINA DE REQUISITOS
