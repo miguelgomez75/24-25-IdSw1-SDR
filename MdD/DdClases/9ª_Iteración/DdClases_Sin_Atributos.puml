@@ -1,0 +1,36 @@
+@startuml
+
+abstract class UsuarioInvitado {}
+
+class UsuarioRegistrado {}
+
+class Moderador {}
+
+class Administrador {}
+
+class Post {}
+
+class Etiqueta {}
+
+class Comunidad{}
+
+class Filtro{}
+
+class Comentario{}
+
+class Like{}
+
+Comunidad o-- UsuarioRegistrado
+Comunidad o-- Post
+UsuarioRegistrado <--> Post
+UsuarioInvitado <|-- UsuarioRegistrado
+UsuarioRegistrado <|-- Moderador
+Moderador <|-- Administrador
+Post *--- Etiqueta
+Post *--- Like
+Post *--- Comentario
+Post ...> Filtro
+Filtro .> Etiqueta
+
+
+@enduml
