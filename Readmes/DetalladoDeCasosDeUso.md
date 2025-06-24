@@ -48,4 +48,12 @@ Aquí se muestran los Casos de Uso detallados
 | Bloquear Palabras o Expresiones | <img src="/Detallado%20de%20CdU/Detallado%20de%20CdU%20-%20Imagenes/1ªIteración/CdU_BloquearPalabrasoExpresiones.svg" width="600"> | [Ver código](/Detallado%20de%20CdU/Detallado%20de%20CdU%20-%20Modelos/1ªIteración/CdU_BloquearPalabrasoExpresiones.puml) |
 | Eliminar Comunidad | <img src="/Detallado%20de%20CdU/Detallado%20de%20CdU%20-%20Imagenes/1ªIteración/CdU_EliminarComunidad.svg" width="600"> | [Ver código](/Detallado%20de%20CdU/Detallado%20de%20CdU%20-%20Modelos/1ªIteración/CdU_EliminarComunidad.puml) |
 
+
+## Visualizacion
+
+<img src="/images/interfaz/3ª_version/1.png">
+<img src="/images/interfaz/3ª_version/2.png">
+<img src="/images/interfaz/3ª_version/3.png">
+
+
 </div>
