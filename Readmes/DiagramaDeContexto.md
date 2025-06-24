@@ -29,9 +29,15 @@ Aquí se muestran los Diagramas de contexto.
 ---
 ## Moderador
 
-| **Diagrama** | **Código Fuente** |
-|--------------|--------------------|
-| ![Moderador](/CdU/DdContexto_Mod/4ª_Iteración/DdContexto_Mod.svg) | [Ver código](/CdU/DdContexto_Mod/4ª_Iteración/DdContexto_Mod.puml) |
+![Cambio de Permisos](/CdU/DdContexto_Mod/5ª_Iteración/DdContexto_Mod(Inicio).svg)
+
+|              |                    |                    |
+|--------------|--------------------|--------------------|
+| ![Comunidades](/CdU/DdContexto_Mod/5ª_Iteración/DdContexto_Mod(Comunidades).svg)  | ![Permisos de Moderador](/CdU/DdContexto_Mod/5ª_Iteración/DdContexto_Mod(Moderador).svg) | ![Cambio de Permisos](/CdU/DdContexto_Mod/5ª_Iteración/DdContexto_Mod(Publicaciones).svg) |
+
+| ![Reportes](/CdU/DdContexto_Mod/5ª_Iteración/DdContexto_Mod(Reportes).svg)  | ![Usuarios](/CdU/DdContexto_Mod/5ª_Iteración/DdContexto_Mod(Usuarios).svg) | ![Filtros](/CdU/DdContexto_Mod/5ª_Iteración/DdContexto_Mod(Aplicacion).svg) |
+|--------------|--------------------|--------------------|
+|              |                    |                    |
 
 ---
 ## General
