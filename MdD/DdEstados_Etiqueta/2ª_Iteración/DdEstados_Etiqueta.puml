@@ -1,0 +1,15 @@
+@startuml
+[*] --> SinEtiqueta
+
+SinEtiqueta --> EtiquetaSolicitada : Un usuario solicita una etiquta
+EtiquetaSolicitada --> EtiquetaActiva : Un moderador revisa y aprueba
+EtiquetaSolicitada --> EtiquetaDenegada : Un moderador revisa y no aprueba
+EtiquetaActiva --> EtiquetaBorrada : La etiqueta deja de usarse
+EtiquetaDenegada --> EtiquetaBorrada : Directamente cesa de existir
+
+SinEtiqueta : Estado inicial sin etiqueta
+EtiquetaSolicitada : La etiqueta se está solicitando
+EtiquetaActiva : La etiqueta está aprobada y entra en vigor
+EtiquetaDenegada : La etiqueta no se aprueba
+EtiquetaBorrada : La etiqueta deja de existir
+@enduml
