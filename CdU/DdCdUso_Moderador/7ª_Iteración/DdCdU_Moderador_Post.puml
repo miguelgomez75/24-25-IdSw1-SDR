@@ -1,0 +1,22 @@
+@startuml
+left to right direction
+actor Moderador
+
+package Aplicacion{
+
+    package publicaciones{
+        usecase "Revisar reportes de contenido" as UC4
+        usecase "Revisar publicaciones" as UC1
+        usecase "Revisar comentarios" as UC6
+        usecase "Eliminar publicación" as UC2
+    }
+usecase "Salir de Vista de moderador" as UC7
+}
+
+Moderador --> UC1
+Moderador --> UC2
+Moderador --> UC4
+Moderador --> UC6
+Moderador --> UC7
+
+@enduml
