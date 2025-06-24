@@ -2,7 +2,7 @@
 left to right direction
 actor Moderador
 
-package Aplicacion{
+package Aplicación{
 
 together{
         usecase "Bloquear palabras o expresiones" as UC7
