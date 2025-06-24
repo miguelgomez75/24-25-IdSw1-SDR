@@ -1,0 +1,7 @@
+@startuml
+[*] --> Post: Ver Post
+[*] --> Registrarse_o_IniciarSesion
+Post --> Post: Compartir Post
+Post --> Registrarse_o_IniciarSesion
+Registrarse_o_IniciarSesion --> [*]
+@enduml 
