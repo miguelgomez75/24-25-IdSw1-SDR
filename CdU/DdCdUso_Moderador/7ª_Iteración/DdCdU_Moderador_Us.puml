@@ -5,7 +5,7 @@ actor Moderador
 package Aplicación{
 
 together{
-        usecase "Bloquear palabras o expresiones" as UC7
+        usecase "Bloquear Filtro" as UC7
         usecase "Eliminar Comunidad" as UC9
     }
  package Usuarios{
