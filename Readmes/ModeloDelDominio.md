@@ -45,4 +45,10 @@ Aquí se muestran los diagramas que componen el modelo del dominio: El diagrama 
 |--------------|--------------------|
 | ![Diagrama de Objetos](/MdD/DdEstados_Usuario/1ª_Iteración/DdEstados_Usuario.svg) | [Ver código](/MdD/DdEstados_Usuario/1ª_Iteración/DdEstados_Usuario.puml) |
 
+### Filtros
+
+| **Diagrama** | **Código Fuente** |
+|--------------|--------------------|
+| placeholder | placeholder |
+
 </div>
