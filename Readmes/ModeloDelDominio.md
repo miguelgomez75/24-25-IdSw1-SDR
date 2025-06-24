@@ -49,6 +49,6 @@ Aquí se muestran los diagramas que componen el modelo del dominio: El diagrama 
 
 | **Diagrama** | **Código Fuente** |
 |--------------|--------------------|
-| placeholder | placeholder |
+| ![Diagrama de Objetos](/MdD/DdEstados_Etiqueta/2ª_Iteración/dde_etiqueta.svg) | [Ver código](/MdD/DdEstados_Etiqueta/2ª_Iteración/DdEstados_Etiqueta.puml) |
 
 </div>
