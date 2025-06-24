@@ -1,0 +1,16 @@
+@startuml
+title Funciones dentro de "Comunidades"
+
+state Comunidades {
+  [*] --> Selección
+  Selección --> CreaciónComunidad : Crear Comunidad
+  CreaciónComunidad --> Selección : Guardar Cambios
+  CreaciónComunidad --> CreaciónComunidad
+  Selección --> [*]
+}
+
+Comunidades --> Dashboard : Ver Posts
+Comunidades --> Perfil : Ver Perfil
+Comunidades --> Ajustes : Ver Ajustes
+Comunidades --> Etiqueta : Elegir Etiqueta
+@enduml
