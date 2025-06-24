@@ -1,0 +1,18 @@
+@startuml
+title Funciones dentro de "Publicaciones"
+
+state Publicaciones {
+  [*] --> Selección
+  Selección --> EliminarPost
+  Selección --> RevisarComentarios
+  EliminarPost --> Selección
+  RevisarComentarios --> Selección
+  Selección --> [*]
+}
+
+Publicaciones --> Reportes
+Publicaciones --> Usuarios
+Publicaciones --> Aplicacion
+Publicaciones --> Comunidades
+Publicaciones --> [*] : Log out
+@enduml

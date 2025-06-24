@@ -1,0 +1,11 @@
+@startuml
+[*] --> Inicio
+Inicio --> UsuarioRegistrado
+Inicio --> Moderador
+
+UsuarioRegistrado --> Moderador
+Moderador --> UsuarioRegistrado
+
+UsuarioRegistrado --> [*] : Log out
+Moderador --> [*] : Log out
+@enduml

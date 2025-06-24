@@ -1,0 +1,20 @@
+@startuml
+title Funciones dentro de "Usuarios"
+
+state Usuarios {
+  [*] --> Selección
+  Selección --> Suspender
+  Selección --> Advertir
+  Selección --> Desbloquear
+  Suspender --> Selección
+  Advertir --> Selección
+  Desbloquear --> Selección
+  Selección --> [*]
+}
+
+Usuarios --> Publicaciones
+Usuarios --> Reportes
+Usuarios --> Aplicacion
+Usuarios --> Comunidades
+Usuarios --> [*]
+@enduml

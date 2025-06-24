@@ -1,0 +1,16 @@
+@startuml
+title Funciones dentro de "Reportes"
+
+state Reportes {
+  [*] --> Selección
+  Selección --> RevisarContenido
+  RevisarContenido --> Selección
+  Selección --> [*]
+}
+
+Reportes --> Publicaciones
+Reportes --> Usuarios
+Reportes --> Aplicacion
+Reportes --> Comunidades
+Reportes --> [*]
+@enduml
