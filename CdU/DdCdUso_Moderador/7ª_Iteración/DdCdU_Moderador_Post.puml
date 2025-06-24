@@ -2,7 +2,7 @@
 left to right direction
 actor Moderador
 
-package Aplicacion{
+package Aplicación{
 
     package publicaciones{
         usecase "Revisar reportes de contenido" as UC4
