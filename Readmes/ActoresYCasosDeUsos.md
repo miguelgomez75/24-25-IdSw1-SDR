@@ -32,7 +32,7 @@ Aquí se muestran los actores principales y los casos de uso de la aplicación
 
 | **Nombre del Diagrama** | **Diagrama** | **Código Fuente** |
 |------------------------|--------------|-------------------|
-| Diagrama de Casos de Uso - Funcionalidades del Moderador | ![Casos de Uso del Moderador 1](/CdU/DdCdUso_Moderador/7ª_Iteración/DdCdUso_Moderador_Collage.png) | [Ver código](/CdU/DdCdUso_Moderador/7ª_Iteración) |
+| Diagrama de Casos de Uso - Funcionalidades del Moderador | ![Casos de Uso del Moderador 1](/CdU/DdCdUso_Moderador/7ª_Iteración/DdCdUso_Moderador_Collage.jpg) | [Ver código](/CdU/DdCdUso_Moderador/7ª_Iteración) |
 
 
 </div>
