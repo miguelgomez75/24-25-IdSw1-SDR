@@ -1,8 +1,23 @@
 <div align="center">
 
-# Prototipo
+# Prototipado
 
-Aquí se muestran los prototipos de interfaz
+Aquí se muestran los prototipos de interfaz y los casos de uso representados visualmente para su mayor comprensión
+
+---
+
+### Casos de Uso relativos a Posts
+<img src="/images/interfaz/3ª_version/1.png">
+
+---
+
+### Casos de uso relativos al usuario
+<img src="/images/interfaz/3ª_version/2.png">
+
+---
+
+### Casos de uso relativos a las comunidades
+<img src="/images/interfaz/3ª_version/3.png">
 
 ---
 ### Imagen principal:
