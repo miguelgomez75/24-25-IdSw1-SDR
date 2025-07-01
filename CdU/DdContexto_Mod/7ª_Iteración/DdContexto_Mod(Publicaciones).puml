@@ -3,8 +3,7 @@ title Funciones dentro de "Publicaciones"
 
 state Publicaciones {
   [*] --> Selección
-  Selección --> Selección : EliminarPost
-  Selección --> Selección : RevisarComentarios
+  Selección --> Selección : EliminarPost \n Revisar Comentarios
   Selección --> [*]
 }
 
