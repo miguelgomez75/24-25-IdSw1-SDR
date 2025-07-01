@@ -9,16 +9,16 @@ Aquí se muestran los Diagramas de contexto.
 
 | **Diagrama** | **Código Fuente** |
 |--------------|--------------------|
-| ![UsuarioNR](/CdU/DdContexto_UsuarioNR/4ª%20Iteración/DdContexto_UsuarioNR.svg) | [Ver código](/CdU/DdContexto_UsuarioNR/4ª%20Iteración/DdContexto_UsuarioNR.puml) |
+| ![UsuarioNR](/CdU/DdContexto_UsuarioNR/5ª_Iteración/DdContexto_UsuarioNR.svg) | [Ver código](/CdU/DdContexto_UsuarioNR/5ª_Iteración/DdContexto_UsuarioNR.puml) |
 
 ---
 ## Usuario Registrado
 
 |              |                   |              |
 |--------------|-------------------|--------------|
-|![UsuarioR1](/CdU/DdContexto_UsuarioR/3ª_Iteración/DdContexto_UsuarioR(Perfil).svg)|![UsuarioR2](/CdU/DdContexto_UsuarioR/4ª_Iteración/DdContexto_UsuarioR(NavegaciónPrincipal).svg)|![UsuarioR3](/CdU/DdContexto_UsuarioR/3ª_Iteración/DdContexto_UsuarioR(Etiqueta).svg)|
+|![UsuarioR1](/CdU/DdContexto_UsuarioR/3ª_Iteración/DdContexto_UsuarioR(Perfil).svg)|![UsuarioR2](/CdU/DdContexto_UsuarioR/5ª_Iteración/DdContexto_UsuarioR(NavegaciónPrincipal).svg)|![UsuarioR3](/CdU/DdContexto_UsuarioR/3ª_Iteración/DdContexto_UsuarioR(Etiqueta).svg)|
 
-|![UsuarioR4](/CdU/DdContexto_UsuarioR/4ª_Iteración/DdContexto_UsuarioR(Comunidades).svg)|![UsuarioR5](/CdU/DdContexto_UsuarioR/3ª_Iteración/DdContexto_UsuarioR(Ajustes).svg)|
+|![UsuarioR4](/CdU/DdContexto_UsuarioR/5ª_Iteración/DdContexto_UsuarioR(Comunidades).svg)|![UsuarioR5](/CdU/DdContexto_UsuarioR/3ª_Iteración/DdContexto_UsuarioR(Ajustes).svg)|
 |--------------|----------|
 |              |          |
 
@@ -29,13 +29,13 @@ Aquí se muestran los Diagramas de contexto.
 ---
 ## Moderador
 
-![Cambio de Permisos](/CdU/DdContexto_Mod/5ª_Iteración/DdContexto_Mod(Inicio).svg)
+![Cambio de Permisos](/CdU/DdContexto_Mod/7ª_Iteración/DdContexto_Mod(Inicio).svg)
 
 |              |                    |                    |
 |--------------|--------------------|--------------------|
-| ![Comunidades](/CdU/DdContexto_Mod/5ª_Iteración/DdContexto_Mod(Comunidades).svg)  | ![Permisos de Moderador](/CdU/DdContexto_Mod/5ª_Iteración/DdContexto_Mod(Moderador).svg) | ![Cambio de Permisos](/CdU/DdContexto_Mod/5ª_Iteración/DdContexto_Mod(Publicaciones).svg) |
+| ![Comunidades](/CdU/DdContexto_Mod/7ª_Iteración/DdContexto_Mod(Comunidades).svg)  | ![Permisos de Moderador](/CdU/DdContexto_Mod/7ª_Iteración/DdContexto_Mod(Moderador).svg) | ![Publicaciones](/CdU/DdContexto_Mod/7ª_Iteración/DdContexto_Mod(Publicaciones).svg) |
 
-| ![Reportes](/CdU/DdContexto_Mod/5ª_Iteración/DdContexto_Mod(Reportes).svg)  | ![Usuarios](/CdU/DdContexto_Mod/5ª_Iteración/DdContexto_Mod(Usuarios).svg) | ![Filtros](/CdU/DdContexto_Mod/5ª_Iteración/DdContexto_Mod(Aplicacion).svg) |
+| ![Reportes](/CdU/DdContexto_Mod/7ª_Iteración/DdContexto_Mod(Reportes).svg)  | ![Usuarios](/CdU/DdContexto_Mod/7ª_Iteración/DdContexto_Mod(Usuarios).svg) | ![Filtros](/CdU/DdContexto_Mod/7ª_Iteración/DdContexto_Mod(Aplicación).svg) |
 |--------------|--------------------|--------------------|
 |              |                    |                    |
 
