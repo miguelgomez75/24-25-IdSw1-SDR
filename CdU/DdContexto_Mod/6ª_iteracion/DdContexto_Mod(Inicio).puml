@@ -1,0 +1,11 @@
+@startuml
+[*] --> Inicio
+Inicio --> UsuarioRegistrado: seleccionar perfil
+Inicio --> Moderador: seleccionar perfil
+
+UsuarioRegistrado --> Moderador: cambiar perfil
+Moderador --> UsuarioRegistrado: cambiar perfil
+
+UsuarioRegistrado --> [*] : Log out
+Moderador --> [*] : Log out
+@enduml

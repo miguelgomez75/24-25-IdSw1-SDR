@@ -8,9 +8,9 @@ state Reportes {
   Selección --> [*]
 }
 
-Reportes --> Publicaciones
-Reportes --> Usuarios
-Reportes --> Aplicacion
-Reportes --> Comunidades
+Reportes --> Publicaciones: Ver publicaciones
+Reportes --> Usuarios: Ver usuarios
+Reportes --> Aplicacion: Ver aplicacion
+Reportes --> Comunidades: Ver comunidades
 Reportes --> [*]
 @enduml

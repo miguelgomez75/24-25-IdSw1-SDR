@@ -1,0 +1,16 @@
+@startuml
+title Funciones dentro de "Comunidades"
+
+state Comunidades {
+  [*] --> Selección
+  Selección --> Eliminar
+  Eliminar --> Selección
+  Selección --> [*]
+}
+
+Comunidades --> Publicaciones: Ver publicaciones
+Comunidades --> Reportes:Ver reportes
+Comunidades --> Usuarios: Ver usuarios
+Comunidades --> Aplicacion: Ver menu
+Comunidades --> [*]
+@enduml
