@@ -1,0 +1,16 @@
+@startuml
+title Funciones dentro de "Publicaciones"
+
+state Publicaciones {
+  [*] --> Selección
+  Selección --> Selección : EliminarPost
+  Selección --> Selección : RevisarComentarios
+  Selección --> [*]
+}
+
+Publicaciones --> Reportes : Ver Reportes
+Publicaciones --> Usuarios : Ver Usuarios
+Publicaciones --> Aplicación : Ver Aplicación
+Publicaciones --> Comunidades : Ver Comunidades
+Publicaciones --> [*] : Cerrar Sesión / Desactivar Permisos de Moderador
+@enduml
