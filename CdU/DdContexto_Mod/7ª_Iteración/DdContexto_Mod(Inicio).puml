@@ -1,0 +1,11 @@
+@startuml
+[*] --> Inicio
+Inicio --> UsuarioRegistrado: seleccionar perfil
+Inicio --> Moderador: seleccionar perfil
+
+UsuarioRegistrado --> Moderador: Activar Permisos de Moderador
+Moderador --> UsuarioRegistrado: Desactivar Permisos de Moderador
+
+UsuarioRegistrado --> [*] : Cerrar Sesión
+Moderador --> [*] : Cerrar Sesión
+@enduml
