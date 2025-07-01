@@ -1,0 +1,14 @@
+@startuml
+title Funciones dentro de "Comunidades"
+
+state Comunidades {
+  [*] --> Selección
+  Selección --> [*] : Eliminar
+}
+
+Comunidades --> Publicaciones: Ver publicaciones
+Comunidades --> Reportes:Ver reportes
+Comunidades --> Usuarios: Ver usuarios
+Comunidades --> Aplicacion: Ver Aplicacion
+Comunidades --> [*] : Cerrar Sesión / Desactivar permisos de moderador
+@enduml
