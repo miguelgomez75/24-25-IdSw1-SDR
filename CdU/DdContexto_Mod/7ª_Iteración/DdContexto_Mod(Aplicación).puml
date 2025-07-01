@@ -13,5 +13,5 @@ Aplicación --> Publicaciones:Ver publicaciones
 Aplicación --> Reportes: Ver reportes
 Aplicación --> Usuarios: Ver usuarios
 Aplicación --> Comunidades: Ver comunidades
-Aplicación --> [*]
+Aplicación --> [*] : Cerrar Sesión / Desactivar permisos de moderador
 @enduml
