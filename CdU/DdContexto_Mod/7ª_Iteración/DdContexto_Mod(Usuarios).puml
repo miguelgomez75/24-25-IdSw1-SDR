@@ -1,0 +1,15 @@
+@startuml
+title Funciones dentro de "Usuarios"
+
+state Usuarios {
+  [*] --> Selección
+  Selección --> Selección : Suspender\nAdvertir\nDesbloquear
+  Selección --> [*]
+}
+
+Usuarios --> Publicaciones: Ver publicaciones
+Usuarios --> Reportes: Ver reportes
+Usuarios --> Aplicación: Ver aplicación
+Usuarios --> Comunidades: Ver comunidad
+Usuarios --> [*] : Cerrar Sesión / Desactivar Permisos de Moderador
+@enduml
