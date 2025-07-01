@@ -1,0 +1,25 @@
+@startuml
+title Funciones dentro de "Moderador"
+
+/' --- Estado compuesto Moderador --- '/
+state "Moderador" as Moderador {
+    [*] --> Selección : entrar
+    state Selección
+    Selección --> [*] : Guardar cambios
+    Selección --> Selección : Hacer más cambios
+}
+
+/' --- Acciones que salen del Moderador --- '/
+Moderador --> Publicaciones : Ver Publicaciones
+Moderador --> Reportes      : Ver Reportes
+Moderador --> Usuarios      : Ver Usuarios
+Moderador --> Aplicación    : Ver Aplicación
+Moderador --> Comunidades   : Ver Comunidades
+
+/' --- Destinos (placeholders) --- '/
+state Publicaciones
+state Reportes
+state Usuarios
+state Aplicación
+state Comunidades
+@enduml
