@@ -1,0 +1,17 @@
+@startuml
+title Funciones dentro de "Aplicación"
+
+state Aplicación {
+  [*] --> Selección
+  Selección --> Selección : Bloquear Palabras O Expresiones
+  
+
+  Selección --> [*]
+}
+
+Aplicación --> Publicaciones:Ver publicaciones
+Aplicación --> Reportes: Ver reportes
+Aplicación --> Usuarios: Ver usuarios
+Aplicación --> Comunidades: Ver comunidades
+Aplicación --> [*]
+@enduml
