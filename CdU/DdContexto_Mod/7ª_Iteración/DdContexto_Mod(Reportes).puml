@@ -1,0 +1,15 @@
+@startuml
+title Funciones dentro de "Reportes"
+
+state Reportes {
+  [*] --> Selección
+  Selección --> Selección : RevisarContenido
+  Selección --> [*]
+}
+
+Reportes --> Publicaciones: Ver publicaciones
+Reportes --> Usuarios: Ver usuarios
+Reportes --> Aplicación: Ver aplicación
+Reportes --> Comunidades: Ver comunidades
+Reportes --> [*] : Cerrar Sesión / Desactivar Permisos de Moderador
+@enduml
